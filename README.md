@@ -25,11 +25,10 @@
 ## Tasks
 
 * `sumOfOdds`
-* Write a function called sumOfOdds that takes in 2 numbers as parameters and sums the odd numbers between them.
-* This function is inclusive so please include your two parameters in your calculation.
-* After summing the numbers, return the sum.
-* You can assume that the 2nd number passed in will always be greater than the first and that the two numbers will not be the same
-* Note: This problem should account for negative number input
+  * Write a function called sumOfOdds that takes in 2 numbers as parameters and sums the odd numbers between them.
+  * This function is inclusive so please include your two parameters in your calculation.
+  * After summing the numbers, return the sum.
+  * You can assume that the 2nd number passed in will always be greater than the first and that the two numbers will not be the same
 
 * `arraySubtract`
   * Write a function arraySubtract that takes in 2 arrays of numbers and subtracts the item in each index at array 1 with its respective item in each index at array 2.
