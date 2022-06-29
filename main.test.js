@@ -170,26 +170,6 @@ describe('countAB', () => {
 })
 
 
-describe('addStringIfLastS', () => {
-  
-  it('addStringIfLastS', () => {
-    expect(addStringIfLastS(['test', 'testing', 'testings'], 'TEST')).toEqual(['test', 'testing', 'testingsTEST']);
-    expect(addStringIfLastS(['you', 'should', 'see'], 'TEST')).toEqual(['you', 'should', 'see']);
-    expect(addStringIfLastS(['cats', 'whales', 'shirtS', 'college', 'jams', 'agens', 'mustard'], '-Fluffy')).toEqual(['cats-Fluffy', 'whales-Fluffy', 'shirtS-Fluffy', 'college', 'jams-Fluffy', 'agens-Fluffy', 'mustard']);
-    expect(addStringIfLastS(['s', 'tss', 'gssss'], ' ')).toEqual(['s ', 'tss ', 'gssss ']);
-  })
-
- 
-  it('addStringIfLastS - empty array', () => {
-    expect(addStringIfLastS([], 'TEST')).toEqual([]);
-  })
-
- 
-  it('addStringIfLastS - empty string', () => {
-    expect(addStringIfLastS(['leo', 'spargo', 'tweek', 'light', 'marss'], '')).toEqual(['leo', 'spargo', 'tweek', 'light', 'marss']);
-  })
-})
-
 describe('twoSmallest', () => {
   
   it('twoSmallest', () => {
