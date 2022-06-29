@@ -129,3 +129,46 @@ console.log("///////////////////////////////////////////////////////////////////
 
 console.log("\n////////////////////////////////////////////////////////////////////////////\n");
 
+// Our code here. Don't touch!
+if (typeof sumOfOdds === 'undefined') {
+    sumOfOdds = undefined
+  }
+  
+  if (typeof arraySubtract === 'undefined') {
+    arraySubtract = undefined
+  }
+  
+  if (typeof surroundArray === 'undefined') {
+    surroundArray = undefined
+  }
+  
+  if (typeof longestString === 'undefined') {
+    longestString = undefined
+  }
+  
+  if (typeof sToR === 'undefined') {
+    sToR = undefined
+  }
+  
+  if (typeof divisibleBy4And7 === 'undefined') {
+    divisibleBy4And7 = undefined
+  }
+
+  if (typeof exclamationAndQuestion === 'undefined') {
+    exclamationAndQuestion = undefined
+  }
+  
+  if (typeof countAB === 'undefined') {
+    countAB = undefined
+  }
+  
+  module.exports = {
+    sumOfOdds,
+    arraySubtract,
+    surroundArray,
+    longestString,
+    sToR,
+    divisibleBy4And7,
+    exclamationAndQuestion,
+    countAB,
+  }
