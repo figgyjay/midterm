@@ -131,22 +131,6 @@ console.log("\n/////////////////////////////////////////////////////////////////
 
 
 /* 
-Write a function called addStringIfLastS() that takes in two parameters.  First, an array of strings and second a single string.  
-Go through each string in the array.  If the string ends in the letter 's' (either case), append your string input to that string in the array.
-Finally, return your modified array.
-Example: addStringIfLastS(['test', 'testing', 'testings'], 'TEST') => ['test', 'testing', 'testingsTEST']
-*/
-
-
-/* console.logs to test */
-console.log("addStringIfLastS");
-console.log("////////////////////////////////////////////////////////////////////////////\n");
-//Add console.logs here to test!  Feel free to format this section however you like
-
-console.log("\n////////////////////////////////////////////////////////////////////////////\n");
-
-
-/* 
 Write a function called twoSmallest that takes in a single array of numbers as a parameter and returns the smallest two numbers in the following array format where the smallest number always comes before the 2nd smallest number (ie, the bigger number should come second): 
 [smallestNumber, secondSmallestNumber]
 If the array is shorter than length 2, return undefined to the user
