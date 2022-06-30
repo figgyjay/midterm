@@ -64,5 +64,6 @@ You can assume the arrays that are being input are of the same length
 * `countAB`
   * Write a function called countAB that takes in a single string and returns an array of length two.  The first item in the array should be the count of every A character in the string.  The 2nd item should be the count of every B character in the string.  
   * No need to add the count of A and B together.  Again, we want an array with the separate counts of each
+  * For this problem, you can count both upper and lower case A's and B's
 
 
