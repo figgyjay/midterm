@@ -20,7 +20,6 @@
 
 ## Setup
 
-* Fork
 * Clone
 
 ## Tasks
